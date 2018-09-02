@@ -16,11 +16,29 @@
 	a {
 		text-decoration: none;
 	}
+	.wrapper {
+		width: 100vw;
+	}
+
+	@media all and (max-width: 600px) {
+		h2 {
+			font-size: 2.5rem;
+		}
+		h3 {
+			font-size: 2.5rem;
+		}
+		img {
+			max-width: 100vh;
+			height: auto;
+		}
+	}
 </style>
 </head>
 <body>
-	<img src="logo-tel.svg" alt="The Enrichment Lab">
-	<h2>For more information, contact:</h2>
-	<h3><a href="tel:+6281617173646">081617173646</a> (Kinggo Sridjaja)</h3>
+	<div class="wrapper">
+		<img src="logo-tel.svg" alt="The Enrichment Lab">
+		<h2>For more info, contact:</h2>
+		<h3><a href="tel:+6281617173646">081617173646</a>(Kinggo Sridjaja)</h3>
+	</div>
 </body>
 </html>
